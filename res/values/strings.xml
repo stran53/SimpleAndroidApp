@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">I\'m Feeling</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="label_bored">Bored</string>
+    <string name="label_hungry">Hungry</string>
+    <string name="label_unproductive">Unproductive</string>
+    <string name="label_lonely">Lonely</string>
+        <string name="label_feeling">Today I\'m feeling &#8230;</string>
+
+</resources>

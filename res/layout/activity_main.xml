@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    android:layoutAnimation="@anim/layoutbottomtotopslide"
+    tools:context=".MainActivity" >
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="28dp"        
+        android:text="@string/label_feeling"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                
+        
+         />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView1"
+        
+            android:layout_alignLeft="@+id/button2"
+        android:text="@string/label_bored"
+        android:textColor="@drawable/button" 
+        android:background="@drawable/button_border"
+        />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_border"
+            android:text="@string/label_hungry"
+            android:textColor="@drawable/button" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_above="@+id/button3"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_below="@+id/button1"
+            android:background="@drawable/button_border"
+            android:text="@string/label_lonely"
+            android:textColor="@drawable/button" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_above="@+id/button4"
+            android:layout_alignLeft="@+id/button4"
+            android:background="@drawable/button_border"
+            android:text="@string/label_unproductive"
+            android:textColor="@drawable/button" />
+
+</RelativeLayout>
